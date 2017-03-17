@@ -1,0 +1,2 @@
+C:\Users\chdin\Source\Repos\NodeJSTest\obj\Debug\VSSolution.njsprojResolveAssemblyReference.cache
+C:\Users\chdin\Source\Repos\NodeJSTest\bin\Microsoft.NodejsTools.WebRole.dll
