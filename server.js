@@ -4,9 +4,11 @@ var express = require('express');
 var exphbs  = require('express-handlebars');
 var app = express();
 var port = process.env.port || 1337;
+var path = require('path');
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
+app.use(express.static(path.join(__dirname, 'views/layouts')));
 
 app.get('/', function (req, res) {
     res.render('home');
